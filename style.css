@@ -1,0 +1,32 @@
+th,
+td {
+  padding: 0 5px;
+}
+
+.btn-group {
+  /* things that apply to both btns */
+}
+#tt {
+  display: none;
+}
+
+#tt:hover {
+  display: block;
+}
+#spin-btn {
+  /* only applies to spin */
+}
+#clear-btn {
+  /* only applies to clear */
+  background-color: white;
+  color: black;
+  border: 2px solid #ff0000;
+}
+
+#clear-btn:hover {
+}
+#spin-btn:hover {
+  background-color: orange;
+
+  border: 2px solid #ff0000;
+}
